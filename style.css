@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .header-top {
+    background-color: #f87414;
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+  }
+    
+  nav {
+    background-color: #c0540c;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .header-bottom {
+    height: 5px;
+    background-color: #f8d808;
+  }
+  
+  .content {
+    display: flex;
+  }
+  
+  .column {
+    padding: 10px;
+  }
+  
+  .column-left {
+    flex-basis: 33.33%;
+    background-color: #ffb484;
+  }
+   
+  .column-right {
+    flex-basis: 66.66%;
+  }  
+  
+  img {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+ 
+  .instrumenten {
+    display: inline;
+    width: 30%;
+  }
+
+  #hannah{
+    display: block;
+    float: right;
+    width: 30%;
+  }
+
+  #jesse{
+    display: block;
+    float: left;
+    width: 30%;
+  }
+  
+  .orange {
+    color:#c0540c;
+  }
+
+  iframe {
+    width: 100%;
+    max-height: 500px;
+  }
+
+  .formulier {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 8px 0;
+  }
+
+  button {
+    color: #fff;
+    background-color: #d85c0c;
+    border: 0;
+    padding: 15px;
+    border-radius: 5px;
+  }
+
+  footer {
+    background-color: #d85c0c;    
+    padding: 10px;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    
+    
+  a {
+    display: block;
+    text-align: center;
+  }
+
+  a.voorwaarden {
+    text-align: left;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+  
+  .column {
+    flex-basis: 100%;
+  }
+  
+  iframe{
+    max-height: 400px;
+  }
+
+  footer {
+    padding: 5px;
+    }
+    
+  }
+  
